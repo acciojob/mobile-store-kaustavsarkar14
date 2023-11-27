@@ -13,7 +13,7 @@ const Home = () => {
             <p>{el.desc}</p>
             <b>{el.price}</b>
             <img height="100px" src={el.image} alt="" />
-            <Link to={`/products/${el.id}`}><button>Buy</button></Link>
+            <Link to={`/products/${el.id}`}><button className='btn' >Buy</button></Link>
           </div>
         )
       })}
